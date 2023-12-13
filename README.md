@@ -35,6 +35,10 @@ The EDA has following Observations.
 
 #### With the r2_score of 0.81 on test data we are confident that the model fit isn't by chance, and has decent predictive power.
 
+The equation of our best fitted line is:
+cnt = 0.2036 + (0.2338 × yr) + (0.4923 × temp) + (-0.1498 × windspeed) + (-0.0680 × spring) + (0.0467 × summer) + (0.0831 × winter) + (-0.0486 × July)+ (0.0721 × sep) + (-0.0456 × Tues) + (-0.2856 × Light Rain) + (-0.0816 × Mist)
+The above equation tells which features which variables are significant in predicting the demand for shared bikesa and how well those variables describe the bike demands.
+
 Based on the final model the top 3 features which most contribute in predicting the demand are;
 
 - ‘temp’ (Temperature)  which has positive correlation with demand for bikes.
