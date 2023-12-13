@@ -33,16 +33,12 @@ The EDA has following Observations.
 - The average demand is high when the weather is clear and the drop in demand looks more than 50% when there is light rain/snow.
 - The average demand on non-workingday is almost same as on workingday if it is not-holiday. As per the dictionary a non-working day which is not a holiday is a weekend so the demand is almost same on weekends as is on workingday.
 
-#### With the r2_score of 0.75 on test data we are confident that the model fit isn't by chance, and has decent predictive power.
-
-The equation of our best fitted line is:
-
-cnt = 0.5855 + (0.2476 × yr) + (-0.1724 × windspeed) + (-0.2988 × spring) + (-0.0417 × summer) + (-0.0752 × winter) + (0.0704 × Sep) + (-0.0456 × Tues) + (-0.2974 × Light Rain) + (-0.0907 × Mist)
+#### With the r2_score of 0.81 on test data we are confident that the model fit isn't by chance, and has decent predictive power.
 
 Based on the final model the top 3 features which most contribute in predicting the demand are;
 
+- ‘temp’ (Temperature)  which has positive correlation with demand for bikes.
 - ‘Light Rain’  (Light rain/snow weather) which has negative correlation with demand for bikes.
-- ‘spring’ (Spring season)  which has negative correlation with demand for bikes.
 - ‘yr’ (Year) which has positive correlation with demand for bikes.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
