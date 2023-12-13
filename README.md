@@ -14,24 +14,23 @@
 - This project is part of course study assignment. The course is Advanced Certification Program in Machine Learning and Deep Learning (ACP in ML & DL) conducted by IIIT Banglore. The project is building a Linear Regression model for predicting demand of shared bikes.
 - A US bike-sharing provider BoomBikes aspires to understand the demand for shared bikes among the people and the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market.
 
-  The company wants to know:
+- The company wants to know:
+1) Which variables are significant in predicting the demand for shared bikes.
+2) How well those variables describe the bike demands
 
-- Which variables are significant in predicting the demand for shared bikes.
-- How well those variables describe the bike demands
-
-Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+- Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 The EDA has following Observations.
-- 1) Average demand is highest in 'fall' followed by 'summer' then 'winter'. Demand is lowest in Spring and the drop looks more than 50%.
-- 2) Average demand in 2019 has surged by around 50% compared to 2018.
-- 3) There is gradual increase in average demand from January to September and then drops may be due to holiday season and/or snow/rain fall.
-- 4) There is low average demand on holidays than not-holiday, the drop looks around 30%.
-- 5) Average demand across week is stable.
-- 6) Average demand is same on working and non-working days though some non-working days there is low demand( lower quartile is lower than `working` in box-plot comparison).
-- 7) The average demand is high when the weather is clear and the drop in demand looks more than 50% when there is light rain/snow.
+- Average demand is highest in 'fall' followed by 'summer' then 'winter'. Demand is lowest in Spring and the drop looks more than 50%.
+- Average demand in 2019 has surged by around 50% compared to 2018.
+- There is gradual increase in average demand from January to September and then drops may be due to holiday season and/or snow/rain fall.
+- There is low average demand on holidays than not-holiday, the drop looks around 30%.
+- Average demand across week is stable.
+- Average demand is same on working and non-working days though some non-working days there is low demand( lower quartile is lower than `working` in box-plot comparison).
+- The average demand is high when the weather is clear and the drop in demand looks more than 50% when there is light rain/snow.
 - The average demand on non-workingday is almost same as on workingday if it is not-holiday. As per the dictionary a non-working day which is not a holiday is a weekend so the demand is almost same on weekends as is on workingday.
 
 #### With the r2_score of 0.75 on test data we are confident that the model fit isn't by chance, and has decent predictive power.
